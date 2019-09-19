@@ -1,0 +1,127 @@
+body, html {
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background: url(../images/caution-tape.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .header {
+    background: black;
+    color: white;
+    border-bottom: 2px solid blue;
+    margin-bottom: 5%;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .main-heading {
+    color: yellow;
+    margin-bottom: 0;
+    margin-left: 1em;
+  }
+
+  .cart-button {
+    height: 5em;
+    width: 10em;
+    margin-top: 1em;
+    margin-right: 4em;
+  }
+
+  .fas fa-shopping-cart {
+    color: white;
+    height: 25px;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+  }
+  
+  .link {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid black;
+
+  }
+
+  .items {
+    height: 500px;
+    width: 40%;
+    justify-self: center;
+  }
+
+  img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .item-description {
+      width: 32%;
+      padding: 1%;
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+
+  }
+
+  ul {
+      padding-left: 20px;
+  }
+
+  #lipsum {
+      /* width: 100%; */
+  }
+
+  .stock {
+    width: 25%;
+  }
+
+  #availability {
+    width: 500%;
+   
+  }
+
+  .footer {
+    border-top: 8px solid blue;
+    /* margin-top: 5%; */
+    text-align: center;
+    width: 100%;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 8%;
+    height: 75px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .item {
+    display: none;
+  }

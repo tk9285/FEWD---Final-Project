@@ -1,0 +1,140 @@
+body, html {
+    padding: 0;
+    margin: 0;
+  }
+body{
+  background: url(../images/caution-tape.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+  .header {
+    background: black;
+    color: white;
+    border-bottom: 8px solid blue;
+    margin-bottom: 5%;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .main-heading {
+    color: yellow;
+    margin-bottom: 0;
+    /* margin-left: 1em; */
+    text-align: center;
+  }
+
+  .cart-button {
+    height: 5em;
+    /* width: 10em; */
+    margin-top: 2em;
+    /* margin-right: 1em; */
+  }
+  
+  .container2 {
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    display: flex;
+  }
+
+  #links {
+    color: white;
+  }
+
+  ul {
+    width: 100%;
+  }
+  
+  li {
+    display: inline-block;
+    width: 15%;
+    font-size: 25px;
+    justify-content: space-between;
+  }
+
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+  }
+
+  .existing-member-button {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    margin: 15px 5px 15px 5px;
+  }
+
+  .existing {
+    background-color: blue;
+  }
+
+  .new-member-button {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    margin: 15px 5px 15px 5px
+  }
+
+  .new {
+    background-color: blue;
+  }
+
+  .container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .carousel {
+    border: 1px solid black;
+    height: 100px;
+    width: 50px;
+    justify-self: center;
+    background-color: black;
+  }
+
+  .footer {
+    border-top: 8px solid blue;
+    /* margin-top: 5%; */
+    text-align: center;
+    width: 100%;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 8%;
+    height: 75px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
